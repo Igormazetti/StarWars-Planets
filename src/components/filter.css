@@ -1,0 +1,25 @@
+#filterForm {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+select {
+  margin-left: 5px;
+}
+
+#filterBtn {
+  color: yellow;
+  font-size: 1rem;
+  padding: 30px;
+  background-color: rgb(49, 49, 49);
+  border: 1px solid yellow;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+#filterBtn:hover {
+  filter: brightness(0.9);
+}

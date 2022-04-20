@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(49, 49, 49);
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0 0.5rem;
+  width: 100%;
+}
+
+th {
+  background-color: black;
+  color: white;
+  line-height: 1.5rem;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+td {
+  border: 0;
+  border-radius: 0.25rem;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+#namefilter {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.filtersdiv {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
+}
+
+#removeAllBtn {
+  color: yellow;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  padding: 10px;
+  background-color: rgb(49, 49, 49);
+  border: 1px solid yellow;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+#removeAllBtn:hover {
+  filter: brightness(0.9);
+}
+
+.btnSingleRemove {
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+}
